@@ -51,8 +51,8 @@ importers:
         specifier: ^8.2.0
         version: 8.2.0
       redis:
-        specifier: ^5.0.1
-        version: 5.0.1
+        specifier: ^5.1.1
+        version: 5.1.1
     devDependencies:
       '@babel/core':
         specifier: ^7.27.1
@@ -62,7 +62,7 @@ importers:
         version: 7.27.2(@babel/core@7.27.1)
       artillery:
         specifier: ^2.0.23
-        version: 2.0.23(@types/node@22.15.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.8.3)
+        version: 2.0.23(@types/node@22.15.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.4.5)
       babel-jest:
         specifier: ^29.7.0
         version: 29.7.0(@babel/core@7.27.1)
@@ -1525,33 +1525,33 @@ packages:
   '@protobufjs/utf8@1.1.0':
     resolution: {integrity: sha512-Vvn3zZrhQZkkBE8LSuW3em98c0FwgO4nxzv6OdSxPKJIEKY2bGbHn+mhGIPerzI4twdxaP8/0+06HBpwf345Lw==}
 
-  '@redis/bloom@5.0.1':
-    resolution: {integrity: sha512-F7L+rnuJvq/upKaVoEgsf8VT7g5pLQYWRqSUOV3uO4vpVtARzSKJ7CLyJjVsQS+wZVCGxsLMh8DwAIDcny1B+g==}
+  '@redis/bloom@5.1.1':
+    resolution: {integrity: sha512-PnMcvpL7O2DHtnSL5JtyNmraNrdHuJXi3u2isGTUuPgkbAuWQKfZdknq471ySILL+qKtLfVJqzgDFMjYmZzK6Q==}
     engines: {node: '>= 18'}
     peerDependencies:
-      '@redis/client': ^5.0.1
+      '@redis/client': ^5.1.1
 
-  '@redis/client@5.0.1':
-    resolution: {integrity: sha512-k0EJvlMGEyBqUD3orKe0UMZ66fPtfwqPIr+ZSd853sXj2EyhNtPXSx+J6sENXJNgAlEBhvD+57Dwt0qTisKB0A==}
+  '@redis/client@5.1.1':
+    resolution: {integrity: sha512-vojbBqUdbkD+ylCy3+ZDXLzSmgiYH9pLrv87kF+nDgsRaHKrVVxPV9B4u6EfWRx7XGvQGZqsXVkKFhsEOsG3LA==}
     engines: {node: '>= 18'}
 
-  '@redis/json@5.0.1':
-    resolution: {integrity: sha512-t94HOTk5myfhvaHZzlUzk2hoUvH2jsjftcnMgJWuHL/pzjAJQoZDCUJzjkoXIUjWXuyJixTguaaDyOZWwqH2Kg==}
-    engines: {node: '>= 18'}
-    peerDependencies:
-      '@redis/client': ^5.0.1
-
-  '@redis/search@5.0.1':
-    resolution: {integrity: sha512-wipK6ZptY7K68B7YLVhP5I/wYCDUU+mDJMyJiUcQLuOs7/eKOBc8lTXKUSssor8QnzZSPy4A5ulcC5PZY22Zgw==}
+  '@redis/json@5.1.1':
+    resolution: {integrity: sha512-A5M0dcgxGKq+oE6spIPBcGLDBiwoSPTs2wesVb4x30rXfG6rPtqt1Z7fCMtvTL2kHUNRKgZ78zhD+0+MENZt7g==}
     engines: {node: '>= 18'}
     peerDependencies:
-      '@redis/client': ^5.0.1
+      '@redis/client': ^5.1.1
 
-  '@redis/time-series@5.0.1':
-    resolution: {integrity: sha512-k6PgbrakhnohsEWEAdQZYt3e5vSKoIzpKvgQt8//lnWLrTZx+c3ed2sj0+pKIF4FvnSeuXLo4bBWcH0Z7Urg1A==}
+  '@redis/search@5.1.1':
+    resolution: {integrity: sha512-bChudQmcqfYUxEGMeXMkljXtwse4hzqcqRwbZDwRyYe+EEeW/lXVl3w/mS2tHnAb2yqGnfDghid8iHEtVNqjww==}
     engines: {node: '>= 18'}
     peerDependencies:
-      '@redis/client': ^5.0.1
+      '@redis/client': ^5.1.1
+
+  '@redis/time-series@5.1.1':
+    resolution: {integrity: sha512-HPjZLfcZxh5mBLqRgx7KCZG6JXxGnb7yJqo9qZ/KMTWK/k3SWyH47DHJbYbRNzKOEkbK/l/5kikDTm79uJuCbg==}
+    engines: {node: '>= 18'}
+    peerDependencies:
+      '@redis/client': ^5.1.1
 
   '@sideway/address@4.1.5':
     resolution: {integrity: sha512-IqO/DUQHUkPeixNQ8n0JA6102hT9CmaljNTPmQ1u8MEhBo/R4Q8eKLN/vGZxuebwOroDB4cbpjheD4+/sKFK4Q==}
@@ -4596,8 +4596,8 @@ packages:
     resolution: {integrity: sha512-hOS089on8RduqdbhvQ5Z37A0ESjsqz6qnRcffsMU3495FuTdqSm+7bhJ29JvIOsBDEEnan5DPu9t3To9VRlMzA==}
     engines: {node: '>=8.10.0'}
 
-  redis@5.0.1:
-    resolution: {integrity: sha512-J8nqUjrfSq0E8NQkcHDZ4HdEQk5RMYjP3jZq02PE+ERiRxolbDNxPaTT4xh6tdrme+lJ86Goje9yMt9uzh23hQ==}
+  redis@5.1.1:
+    resolution: {integrity: sha512-4t6n2Q9aFqpQnqBR/g84zsXW+U0hdSzYymqoGGZk44p+kuzzHbgukjOAca+PlQ563TbXcgv1njerllYWjAWw4g==}
     engines: {node: '>= 18'}
 
   regenerate-unicode-properties@10.2.0:
@@ -6993,22 +6993,6 @@ snapshots:
       typescript: 5.4.5
       v8-compile-cache-lib: 3.0.1
 
-  '@isaacs/ts-node-temp-fork-for-pr-2009@10.9.7(@types/node@22.15.18)(typescript@5.8.3)':
-    dependencies:
-      '@cspotcode/source-map-support': 0.8.1
-      '@tsconfig/node14': 14.1.3
-      '@tsconfig/node16': 16.1.3
-      '@tsconfig/node18': 18.2.4
-      '@tsconfig/node20': 20.1.5
-      '@types/node': 22.15.18
-      acorn: 8.14.1
-      acorn-walk: 8.3.4
-      arg: 4.1.3
-      diff: 4.0.2
-      make-error: 1.3.6
-      typescript: 5.8.3
-      v8-compile-cache-lib: 3.0.1
-
   '@istanbuljs/load-nyc-config@1.1.0':
     dependencies:
       camelcase: 5.3.1
@@ -7601,25 +7585,25 @@ snapshots:
 
   '@protobufjs/utf8@1.1.0': {}
 
-  '@redis/bloom@5.0.1(@redis/client@5.0.1)':
+  '@redis/bloom@5.1.1(@redis/client@5.1.1)':
     dependencies:
-      '@redis/client': 5.0.1
+      '@redis/client': 5.1.1
 
-  '@redis/client@5.0.1':
+  '@redis/client@5.1.1':
     dependencies:
       cluster-key-slot: 1.1.2
 
-  '@redis/json@5.0.1(@redis/client@5.0.1)':
+  '@redis/json@5.1.1(@redis/client@5.1.1)':
     dependencies:
-      '@redis/client': 5.0.1
+      '@redis/client': 5.1.1
 
-  '@redis/search@5.0.1(@redis/client@5.0.1)':
+  '@redis/search@5.1.1(@redis/client@5.1.1)':
     dependencies:
-      '@redis/client': 5.0.1
+      '@redis/client': 5.1.1
 
-  '@redis/time-series@5.0.1(@redis/client@5.0.1)':
+  '@redis/time-series@5.1.1(@redis/client@5.1.1)':
     dependencies:
-      '@redis/client': 5.0.1
+      '@redis/client': 5.1.1
 
   '@sideway/address@4.1.5':
     dependencies:
@@ -8208,16 +8192,6 @@ snapshots:
       - '@types/node'
       - typescript
 
-  '@tapjs/typescript@1.4.13(@tapjs/core@2.1.6(@types/node@22.15.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/node@22.15.18)(typescript@5.8.3)':
-    dependencies:
-      '@isaacs/ts-node-temp-fork-for-pr-2009': 10.9.7(@types/node@22.15.18)(typescript@5.8.3)
-      '@tapjs/core': 2.1.6(@types/node@22.15.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-    transitivePeerDependencies:
-      - '@swc/core'
-      - '@swc/wasm'
-      - '@types/node'
-      - typescript
-
   '@tapjs/worker@2.0.8(@tapjs/core@2.1.6(@types/node@22.15.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))':
     dependencies:
       '@tapjs/core': 2.1.6(@types/node@22.15.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -8470,9 +8444,9 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  artillery-plugin-apdex@1.14.0(@types/node@22.15.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.8.3):
+  artillery-plugin-apdex@1.14.0(@types/node@22.15.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.4.5):
     dependencies:
-      tap: 19.2.5(@types/node@22.15.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.8.3)
+      tap: 19.2.5(@types/node@22.15.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.4.5)
     transitivePeerDependencies:
       - '@swc/core'
       - '@swc/wasm'
@@ -8554,7 +8528,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  artillery@2.0.23(@types/node@22.15.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.8.3):
+  artillery@2.0.23(@types/node@22.15.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.4.5):
     dependencies:
       '@artilleryio/int-commons': 2.14.0
       '@artilleryio/int-core': 2.18.0
@@ -8568,7 +8542,7 @@ snapshots:
       '@oclif/plugin-not-found': 3.2.51(@types/node@22.15.18)
       archiver: 5.3.2
       artillery-engine-playwright: 1.20.0
-      artillery-plugin-apdex: 1.14.0(@types/node@22.15.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.8.3)
+      artillery-plugin-apdex: 1.14.0(@types/node@22.15.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.4.5)
       artillery-plugin-ensure: 1.17.0
       artillery-plugin-expect: 2.17.0
       artillery-plugin-fake-data: 1.14.0
@@ -11372,13 +11346,13 @@ snapshots:
     dependencies:
       picomatch: 2.3.1
 
-  redis@5.0.1:
+  redis@5.1.1:
     dependencies:
-      '@redis/bloom': 5.0.1(@redis/client@5.0.1)
-      '@redis/client': 5.0.1
-      '@redis/json': 5.0.1(@redis/client@5.0.1)
-      '@redis/search': 5.0.1(@redis/client@5.0.1)
-      '@redis/time-series': 5.0.1(@redis/client@5.0.1)
+      '@redis/bloom': 5.1.1(@redis/client@5.1.1)
+      '@redis/client': 5.1.1
+      '@redis/json': 5.1.1(@redis/client@5.1.1)
+      '@redis/search': 5.1.1(@redis/client@5.1.1)
+      '@redis/time-series': 5.1.1(@redis/client@5.1.1)
 
   regenerate-unicode-properties@10.2.0:
     dependencies:
@@ -11829,7 +11803,7 @@ snapshots:
       yaml: 2.8.0
       yaml-types: 0.3.0(yaml@2.8.0)
 
-  tap@19.2.5(@types/node@22.15.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.8.3):
+  tap@19.2.5(@types/node@22.15.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.4.5):
     dependencies:
       '@tapjs/after': 1.1.31(@tapjs/core@2.1.6(@types/node@22.15.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@tapjs/after-each': 2.0.8(@tapjs/core@2.1.6(@types/node@22.15.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
@@ -11848,7 +11822,7 @@ snapshots:
       '@tapjs/spawn': 2.0.8(@tapjs/core@2.1.6(@types/node@22.15.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@tapjs/stdin': 2.0.8(@tapjs/core@2.1.6(@types/node@22.15.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@tapjs/test': 2.2.4(@tapjs/core@2.1.6(@types/node@22.15.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/node@22.15.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@tapjs/typescript': 1.4.13(@tapjs/core@2.1.6(@types/node@22.15.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/node@22.15.18)(typescript@5.8.3)
+      '@tapjs/typescript': 1.4.13(@tapjs/core@2.1.6(@types/node@22.15.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/node@22.15.18)(typescript@5.4.5)
       '@tapjs/worker': 2.0.8(@tapjs/core@2.1.6(@types/node@22.15.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       resolve-import: 1.4.6
     transitivePeerDependencies:
